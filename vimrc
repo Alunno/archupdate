@@ -1,0 +1,9 @@
+set number
+set cursorline
+set tabstop=4
+set softtabstop=2
+set autoindent
+set smartindent
+set expandtab
+colorscheme evening
+syntax on

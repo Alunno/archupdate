@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+GenericName=Conky
+Name=Conky
+Comment=monitoramento do sistema em tempo real.
+TryExec=/home/edison/.Iniciar_Conky.sh
+Exec=/home/edison/.Iniciar_Conky.sh
+Icon=conky-logomark-violet
+Terminal=false
+Categories=Network;System;
+StartupNotify=false
+X-GNOME-Autostart-Delay=60
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+case $DESKTOP_SESSION in
+ "ubuntu" )         pgrep gnome-shell >/dev/null && gnome-shell --version || echo $DESKTOP_SESSION;;
+ "ubuntu-2d" )      echo Unity 2D ;;
+ "gnome-shell" )    pgrep gnome-shell >/dev/null && gnome-shell --version || echo $DESKTOP_SESSION;;
+ "gnome" )          pgrep gnome-shell >/dev/null  && gnome-shell --version || echo $DESKTOP_SESSION;;
+ "gnome-classic" )  echo 'GNOME Classic' ;;
+ "gnome-fallback" ) echo 'GNOME Classic (NE)' ;;
+ "kde-plasma" )     kded6 --version|sed -n '2s/ .* / /p' ;;
+ "cinnamon" )       cinnamon --version ;;
+ "ubuntu-wayland" ) pgrep gnome-shell >/dev/null && gnome-shell --version || echo $DESKTOP_SESSION;;
+ * )                echo $DESKTOP_SESSION ;;
+esac
