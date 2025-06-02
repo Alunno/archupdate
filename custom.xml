@@ -2,176 +2,184 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>Default Animal Ears Playing</name>
-    <filename>/usr/share/backgrounds/custom/animal-ears-playing.png</filename>
+    <name>Default Campo</name>
+    <filename>/usr/share/backgrounds/custom/campo.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Camp</name>
-    <filename>/usr/share/backgrounds/custom/camp.png</filename>
+    <name>Default Dragon Ball</name>
+    <filename>/usr/share/backgrounds/custom/dragon_ball.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Dragon Ball Son Goku</name>
-    <filename>/usr/share/backgrounds/custom/dragon-ball-son-goku.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-   <wallpaper deleted="false">
-    <name>Default Ellen Ripley</name>
-    <filename>/usr/share/backgrounds/custom/ellen-ripley.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-   <wallpaper deleted="false">
-    <name>Default Forest</name>
-    <filename>/usr/share/backgrounds/custom/forest.png</filename>
+    <name>Default Dragon Ball Goku</name>
+    <filename>/usr/share/backgrounds/custom/dragon_ball_goku.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Fusion Goku</name>
-    <filename>/usr/share/backgrounds/custom/fusion-goku.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Default Girls Overwatch</name>
-    <filename>/usr/share/backgrounds/custom/girls-overwatch.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Default Goku uv</name>
-    <filename>/usr/share/backgrounds/custom/goku-2020-uv.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Default Ilha</name>
-    <filename>/usr/share/backgrounds/custom/ilha.png</filename>
-    <options>stretched</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Default Sistema Solar</name>
-    <filename>/usr/share/backgrounds/custom/illustration-solar-system.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Default Kantai</name>
-    <filename>/usr/share/backgrounds/custom/kantai.png</filename>
+    <name>Default Final Fantasy</name>
+    <filename>/usr/share/backgrounds/custom/final_fantasy.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Kitagawa Marin</name>
-    <filename>/usr/share/backgrounds/custom/kitagawa-marin.png</filename>
+    <name>Default Girl</name>
+    <filename>/usr/share/backgrounds/custom/girl.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Lake</name>
-    <filename>/usr/share/backgrounds/custom/lake.png</filename>
+    <name>Default Lago</name>
+    <filename>/usr/share/backgrounds/custom/lago.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Mountain Lake</name>
-    <filename>/usr/share/backgrounds/custom/mountain-lake.png</filename>
+    <name>Default Maya</name>
+    <filename>/usr/share/backgrounds/custom/maya.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Road</name>
-    <filename>/usr/share/backgrounds/custom/road.png</filename>
+    <name>Default Night Mountain</name>
+    <filename>/usr/share/backgrounds/custom/night_mountain.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Space Exploration Universe</name>
-    <filename>/usr/share/backgrounds/custom/space-exploration-universe.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-  <wallpaper deleted="false">
-    <name>Default Space Minimalism</name>
-    <filename>/usr/share/backgrounds/custom/space-minimalism.png</filename>
+    <name>Default Snow Mountain</name>
+    <filename>/usr/share/backgrounds/custom/snow_mountain.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Tribute to Akira Toriyama</name>
-    <filename>/usr/share/backgrounds/custom/tribute-to-akira-toriyama.png</filename>
-    <options>zoom</options>
+    <name>Default Space</name>
+    <filename>/usr/share/backgrounds/custom/space.png</filename>
+    <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Venus Saturn Sun Mars</name>
-    <filename>/usr/share/backgrounds/custom/venus-saturn-sun-mars.png</filename>
-    <options>zoom</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-   <wallpaper deleted="false">
-    <name>Default Bicicle</name>
-    <filename>/usr/share/backgrounds/custom/bicicle.png</filename>
+    <name>Default Young Goku</name>
+    <filename>/usr/share/backgrounds/custom/young_goku.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Venus Saturn Sun Mars</name>
-    <filename>/usr/share/backgrounds/custom/crepusculo.png</filename>
+    <name>Default Show</name>
+    <filename>/usr/share/backgrounds/custom/show.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Forest</name>
-    <filename>/usr/share/backgrounds/custom/forest.png</filename>
+    <name>Default Sun Rise</name>
+    <filename>/usr/share/backgrounds/custom/sun_rise.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Amanhecer</name>
+    <filename>/usr/share/backgrounds/custom/amanhecer.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Noite Cadente</name>
+    <filename>/usr/share/backgrounds/custom/noite_cadente.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Vale</name>
+    <filename>/usr/share/backgrounds/custom/vale.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Floresta</name>
+    <filename>/usr/share/backgrounds/custom/floresta.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Estação Trem</name>
+    <filename>/usr/share/backgrounds/custom/estação_trem.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Farm Night</name>
+    <filename>/usr/share/backgrounds/custom/farm_night.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Alce</name>
+    <filename>/usr/share/backgrounds/custom/alce.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Portal Japones</name>
+    <filename>/usr/share/backgrounds/custom/portal_japones.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Cruzamento</name>
+    <filename>/usr/share/backgrounds/custom/cruzamento.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Roads</name>
+    <filename>/usr/share/backgrounds/custom/roads.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>

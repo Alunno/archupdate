@@ -1,0 +1,15 @@
+{
+    "KPlugin": {
+        "Authors": [
+		{
+        "Email":"edisonsilvaf@protom.me",
+        "Name":"Edison Filho"
+		}
+        ],
+        "Id": "Lago",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Lago"
+
+    },
+    "X-KDE-PlasmaImageWallpaper-AccentColor": "red"
+}
