@@ -10,32 +10,32 @@
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Dragon Ball</name>
-    <filename>/usr/share/backgrounds/custom/dragon_ball.png</filename>
+    <name>Default Beatiful Mountains</name>
+    <filename>/usr/share/backgrounds/custom/beautiful-mountains.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Dragon Ball Goku</name>
-    <filename>/usr/share/backgrounds/custom/dragon_ball_goku.png</filename>
+    <name>Default Countryside</name>
+    <filename>/usr/share/backgrounds/custom/countryside.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Final Fantasy</name>
-    <filename>/usr/share/backgrounds/custom/final_fantasy.png</filename>
+    <name>Default Dark Sky Japan</name>
+    <filename>/usr/share/backgrounds/custom/dark-sky-japan.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Girl</name>
-    <filename>/usr/share/backgrounds/custom/girl.png</filename>
+    <name>Default Fantasy Landscape</name>
+    <filename>/usr/share/backgrounds/custom/fantasy-landscape.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
@@ -50,16 +50,16 @@
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Maya</name>
-    <filename>/usr/share/backgrounds/custom/maya.png</filename>
+    <name>Default Foggy City</name>
+    <filename>/usr/share/backgrounds/custom/foggy-city.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Night Mountain</name>
-    <filename>/usr/share/backgrounds/custom/night_mountain.png</filename>
+    <name>Default Illustration Anime City</name>
+    <filename>/usr/share/backgrounds/custom/illustration-anime-city.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
@@ -74,32 +74,32 @@
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Space</name>
-    <filename>/usr/share/backgrounds/custom/space.png</filename>
+    <name>Default Japan art</name>
+    <filename>/usr/share/backgrounds/custom/japan-art.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
   <wallpaper deleted="false">
-    <name>Default Young Goku</name>
-    <filename>/usr/share/backgrounds/custom/young_goku.png</filename>
+    <name>Default Japan Background</name>
+    <filename>/usr/share/backgrounds/custom/japan-background.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Show</name>
-    <filename>/usr/share/backgrounds/custom/show.png</filename>
+    <name>Default Japan Digital Art</name>
+    <filename>/usr/share/backgrounds/custom/japan-digital-art.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Sun Rise</name>
-    <filename>/usr/share/backgrounds/custom/sun_rise.png</filename>
+    <name>Default Mountains</name>
+    <filename>/usr/share/backgrounds/custom/mountains.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
@@ -114,8 +114,8 @@
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Noite Cadente</name>
-    <filename>/usr/share/backgrounds/custom/noite_cadente.png</filename>
+    <name>Default Stunning Chinese</name>
+    <filename>/usr/share/backgrounds/custom/stunning-chinese.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
@@ -130,48 +130,24 @@
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Floresta</name>
-    <filename>/usr/share/backgrounds/custom/floresta.png</filename>
+    <name>Default Sun Rise</name>
+    <filename>/usr/share/backgrounds/custom/sun_rise.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Estação Trem</name>
-    <filename>/usr/share/backgrounds/custom/estação_trem.png</filename>
+    <name>Default Vale</name>
+    <filename>/usr/share/backgrounds/custom/vale.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
    <wallpaper deleted="false">
-    <name>Default Farm Night</name>
-    <filename>/usr/share/backgrounds/custom/farm_night.png</filename>
-    <options>stretched</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-   <wallpaper deleted="false">
-    <name>Default Alce</name>
-    <filename>/usr/share/backgrounds/custom/alce.png</filename>
-    <options>stretched</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-   <wallpaper deleted="false">
-    <name>Default Portal Japones</name>
-    <filename>/usr/share/backgrounds/custom/portal_japones.png</filename>
-    <options>stretched</options>
-    <shade_type>solid</shade_type>
-    <pcolor>#3071AE</pcolor>
-    <scolor>#000000</scolor>
-  </wallpaper>
-   <wallpaper deleted="false">
-    <name>Default Cruzamento</name>
-    <filename>/usr/share/backgrounds/custom/cruzamento.png</filename>
+    <name>Default Wall World Monument</name>
+    <filename>/usr/share/backgrounds/custom/wall-world-monument.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>

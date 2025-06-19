@@ -37,7 +37,7 @@ makepkg -si --noconfirm
 yay -Syu --noconfirm
 echo -e "${BLUE} *** INSTALANDO COMPLEMENTOS GNOME. *** ${OFF}"
 sleep 3
-yay -S --noconfirm file-roller secrets fragments impression evolution evolution-ews evolution-data-server evolution-on evolution-spamassassin gnome-browser-connector gnome-boxes gnome-connections showtime
+yay -S --noconfirm file-roller secrets fragments impression evolution evolution-ews evolution-data-server evolution-on evolution-spamassassin gnome-browser-connector gnome-boxes gnome-connections showtime lollypop
 echo -e "${PURPLE} *** INSTALANDO PACOTES ADICIONAIS. *** ${OFF}"
 sleep 3
 yay -S --noconfirm --needed conky-lua-nv lsb-release zsh testdisk p7zip unrar unzip zip aic94xx-firmware linux-firmware-qlogic wd719x-firmware upd72020x-fw ffmpeg ffmpegthumbs ffmpegthumbnailer firefox firefox-i18n-pt-br libreoffice-fresh-pt-br libreoffice-extension-vero libreoffice-impress-templates aspell-pt ttf-ms-fonts ttf-ubuntu-font-family ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono ttf-roboto ttf-roboto-mono dosfstools ttf-font-logos ttf-font-awesome-5 nerd-fonts-git gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly vim yt-dlp youtube-dl starship zsh-autocomplete-git zsh-syntax-highlighting-git zsh-autosuggestions-git plymouth smbclient gvfs gvfs-goa gvfs-google gvfs-smb sshfs gvfs gvfs-goa gvfs-google gvfs-smb sshfs ntfs-3g epson-inkjet-printer-escpr cups ghostscript gsfonts gst-ffmpeg gstreamer ocean-sound-theme checkupdates-with-aur hunspell-pt-br gimp shc unshc linux-headers archupdate-appstream-data fwupd gnome-shell-extension-arch-update python-pipx morewaita-icon-theme mesa-utils xfsprogs f2fs-tools exfat-utils udftools vorbis-tools ast-firmware creality-print chitubox-free-bin epson-inkjet-printer-escpr visual-studio-code-bin ttf-google-fonts kdenlive obs-studio inkscape hplip python-pyqt5
@@ -117,7 +117,7 @@ sleep 3
 echo -e "${WHITE} *** INSTALAÇÃO DE COMPLEMENTOS BEM SUCEDIDO... *** ${OFF}"
 sleep 3
 echo -e "${GREEN} *** ATUALIZANDO E REMOVENDO APPs DESNECESSÁRIOS. *** ${OFF}"
-yay -Syu --noconfirm && yay -Rsnc --noconfirm gnome-contacts gnome-maps gnome-weather gnome-characters gnome-clocks gnome-software epiphany htop gnome-tour fontforge totem decibels
+yay -Syu --noconfirm && yay -Rsnc --noconfirm gnome-contacts gnome-maps gnome-weather gnome-characters gnome-clocks gnome-software epiphany htop gnome-tour fontforge totem decibels gnome-music
 sleep 3
 echo -e "${LRED} *** ATUALIZAÇÕES BEM SUCEDIDAS...! *** ${OFF}"
 sleep 3
