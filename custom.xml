@@ -161,4 +161,84 @@
     <pcolor>#3071AE</pcolor>
     <scolor>#000000</scolor>
   </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Chanise Wall</name>
+    <filename>/usr/share/backgrounds/custom/chanise-wall.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Chanise</name>
+    <filename>/usr/share/backgrounds/custom/chanise.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Chanise Great</name>
+    <filename>/usr/share/backgrounds/custom/chanise-great.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Chanise Great Wall</name>
+    <filename>/usr/share/backgrounds/custom/chanise-great-wall.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Japan River</name>
+    <filename>/usr/share/backgrounds/custom/japan-river.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Stunning Chinese</name>
+    <filename>/usr/share/backgrounds/custom/stunning-chinese.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Stunning Chinese River</name>
+    <filename>/usr/share/backgrounds/custom/stunning-chinise-river.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Stunning Japanise</name>
+    <filename>/usr/share/backgrounds/custom/stunning-japanise.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Style River Nature</name>
+    <filename>/usr/share/backgrounds/custom/style-river-nature.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+   <wallpaper deleted="false">
+    <name>Default Yasaka Pagoda Sannen Zaka</name>
+    <filename>/usr/share/backgrounds/custom/yasaka-pagoda-sannen-zaka.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
 </wallpapers>  
