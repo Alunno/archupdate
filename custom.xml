@@ -163,7 +163,7 @@
   </wallpaper>
    <wallpaper deleted="false">
     <name>Default Chanise Wall</name>
-    <filename>/usr/share/backgrounds/custom/chanise-wall.png</filename>
+    <filename>/usr/share/backgrounds/custom/chainise-wall.png</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>
@@ -236,6 +236,22 @@
    <wallpaper deleted="false">
     <name>Default Yasaka Pagoda Sannen Zaka</name>
     <filename>/usr/share/backgrounds/custom/yasaka-pagoda-sannen-zaka.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Default Clear Day</name>
+    <filename>/usr/share/backgrounds/custom/clearday.jpg</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#3071AE</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Default Clear Night</name>
+    <filename>/usr/share/backgrounds/custom/clearnight.jpg</filename>
     <options>stretched</options>
     <shade_type>solid</shade_type>
     <pcolor>#3071AE</pcolor>

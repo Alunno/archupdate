@@ -22,8 +22,8 @@ conky.config = {
 	cpu_avg_samples = 2,
 	override_utf8_locale = true,
 
-	minimum_width = 240,
-	maximum_width = 240,
+	minimum_width = 265,
+	maximum_width = 265,
 
 	minimum_height = 495,
 
@@ -46,7 +46,7 @@ conky.config = {
 	net_avg_samples = 2,
 	override_utf8_locale = true,
 
-	font = 'Calibri Bold Caps:size=9',
+	font = 'CaskaydiaCove NF:size=9',
 
 	color1 = '117864',
 	color2 = 'aaaaaa',
@@ -58,31 +58,34 @@ conky.config = {
 };
 
 conky.text = [[
-${offset 5}${voffset 10}${font Font Awesome 6 Pro:style=solid:size=10}${color1}${font}${color}${goto 20}${execpi 10000 ~/.get_DE}${goto 210}${color}${font Font Awesome 5 Free:style=solid:size=10}${color1}${font}${color}${goto 225}${texeci 180 checkupdates-with-aur | wc -l}
+${offset 5}${voffset 10}${font Font Awesome 6 Pro:style=solid:size=10}${color1}${font}${color}${goto 20}${execpi 10000 ~/.get_DE}${goto 230}${color}${font Font Awesome 5 Free:style=solid:size=10}${color1}${font}${color}${goto 250}${texeci 180 checkupdates-with-aur | wc -l}
 ${offset 5}${voffset -5}${color3}${hr 2}${color}
-${offset 5}${voffset 4}Usuário: ${alignr}${color2}${exec whoami}${color}
-${offset 5}${voffset 4}Kernel: ${alignr}${color2}${kernel}${color}
-${offset 5}${voffset 4}Distro: ${alignr}${color2}${execi 10000 lsb_release -d | cut -f 2| tr "[:upper:]" "[:upper:]"} ${execi 10000 lsb_release -rs}${color}
-${offset 5}${voffset 4}Desktop: ${alignr}${color2}${if_match "$desktop"!="Not running in X"}(${desktop}/${desktop_number})${endif}: ${desktop_name}${color}
+${offset 5}${voffset 4}Usuário: ${goto 70}${color2}${exec whoami}${color}${offset 5}${voffset 0}Kernel: ${alignr}${color2}${kernel}${color}
+${offset 5}${voffset 4}Distro: ${goto 60}${color2}${execi 10000 lsb_release -d | cut -f 2| tr "[:upper:]" "[:upper:]"} ${execi 10000 lsb_release -rs}${color}
+${offset 5}${voffset 4}Desktop: ${goto 68}${color2}${if_match "$desktop"!="Not running in X"}(${desktop}/${desktop_number})${endif}: ${desktop_name}${color}
 #
 #---Processadores---#
 #
-${offset 5}${voffset 10}${font Font Awesome 6 Pro:style=solid:size=10}${color1}${font}${color}${goto 30}${execi 1000 cat /proc/cpuinfo | grep 'model name' | sed -e 's/model name.*: //'| uniq}
+${offset 5}${voffset 10}${font Font Awesome 6 Pro:style=solid:size=10}${color1}${font}${color}${goto 30}${font CaskaydiaCove NF:size=8}${execi 1000 cat /proc/cpuinfo | grep 'model name' | sed -e 's/model name.*: //'| uniq}
 ${offset 5}${voffset -5}${color3}${hr 2}${color}
-${offset 5}${voffset 4}CPU0: ${color2}${cpu cpu0}% ${color}${goto 70}${cpugraph 10,60 117864  900C3F cpu0}
-${offset 5}${voffset 4}CPU1: ${color2}${cpu cpu1}% ${color}${goto 70}${cpugraph 10,60 117864  900C3F cpu1}
-${offset 5}${voffset 4}CPU2: ${color2}${cpu cpu2}% ${color}${goto 70}${cpugraph 10,60 117864  900C3F cpu2}
-${offset 5}${voffset 4}CPU3: ${color2}${cpu cpu3}% ${color}${goto 70}${cpugraph 10,60 117864  900C3F cpu3}
+${offset 5}${voffset 4}CPU0: ${color2}${cpu cpu0}% ${color}
+${offset 5}${voffset 4}${cpugraph 10,255 117864  900C3F cpu0}
+${offset 5}${voffset 4}CPU1: ${color2}${cpu cpu1}% ${color}
+${offset 5}${voffset 4}${cpugraph 10,255 117864  900C3F cpu1}
+${offset 5}${voffset 4}CPU2: ${color2}${cpu cpu2}% ${color}
+${offset 5}${voffset 4}${cpugraph 10,255 117864  900C3F cpu2}
+${offset 5}${voffset 4}CPU3: ${color2}${cpu cpu3}% ${color}
+${offset 5}${voffset 4}${cpugraph 10,255 117864  900C3F cpu3}
 #
 #---Memoria---#
 #
-${offset 5}${voffset 10}${font Font Awesome 6 Pro:style=solid:size=10}${color1}${font}${color}${goto 30}Swap: ${color2}${swapmax}${color}${goto 110}Livre: ${color2}${swapfree}${color}${goto 188}Em uso: ${color2}${swap}${color}
+${offset 5}${voffset 10}${font Font Awesome 6 Pro:style=solid:size=10}${color1}${font}${color}${goto 30}Swap: ${goto 68}${color2}${swapmax}${color}${goto 125}Em uso: ${goto 176}${color2}${swap}${color}
 ${offset 5}${voffset -5}${color3}${hr 2}${color}
-${offset 5}${voffset 4}Ram: ${color2}${memmax}${color}${goto 86}Live: ${color2}${memfree}${color}${goto 160}Em uso: ${color2}${mem}${color}
+${offset 5}${voffset 4}Ram: ${goto 40}${color2}${memmax}${color}${goto 100}Live/uso: ${goto 165}${color2}${memfree}/${mem}${color}
 #
 #---Processos---#
 #
-${offset 5}${voffset 18}${font Font Awesome 6 Pro:style=solid:size=10}${color1}${font}${color}${goto 30}Processo: ${color2}${top_io name 1}${color}
+${offset 5}${voffset 25}${font Font Awesome 6 Pro:style=solid:size=10}${color1}${font}${color}${goto 30}Processo: ${color2}${top_io name 1}${color}
 ${offset 5}${voffset -5}${color3}${hr 2}${color}
 ${offset 5}${voffset 4}${top name 1}${alignr}${color2}${top cpu 1}%${color}
 ${offset 5}${voffset 4}${top name 2}${alignr}${color2}${top cpu 2}%${color}
@@ -94,7 +97,8 @@ ${offset 5}${voffset 4}${top name 5}${alignr}${color2}${top cpu 5}%${color}
 #
 ${offset 5}${voffset 10}${font Font Awesome 6 Pro:style=solid:size=10}${color1}${font}${color}${goto 30}${diskiograph /dev/sda 10,210 117864  900C3F -l}
 ${offset 5}${voffset -5}${color3}${hr 2}${color}
-${offset 5}${voffset 4}sda: ${color2}${fs_size}${color}${goto 80}${color}Disponível: ${color2}${fs_free}${color}${goto 190}Tipo: ${color2}${fs_type /}${color}
+${offset 5}${voffset 4}sda: ${color2}${fs_size}${color}${goto 100}${color}Disponível: ${color2}${fs_free}${color}
+${offset 5}${voffset 4}Tipo: ${color2}${fs_type /}${color}
 #
 #---Rede---#
 #
