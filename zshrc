@@ -1,103 +1,67 @@
-# Criar historico de comandos
-HISTFILE=${HOME}/.zsh_history
-HISTSIZE=1000
-SAVEHIST=1000
+# Integração com o shell
+eval "$(starship init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
+eval "$(atuin init zsh)"
+eval "$(fzf --zsh)"
+
+#Exportações
+export _ZO_ECHO='0'
+export EDITOR="vim"
+export SUDO_EDITOR="$EDITOR"
+export ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit-git"
+export PATH="$PATH:$HOME/gon/bin"
+export PATH="$PATH:/opt/kafka/bin"
+export STARSHIP_CONFIG=~/.config/starship.toml
+export EDITOR=/bin/vim
+export PATH=$PATH:/usr/local/go/bin
+if [ ! -d "$ZINIT_HOME" ]; then
+	mkdir -p "$(dirname $ZINIT_HOME)"
+	git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+fi
+
+source "${ZINIT_HOME}/zinit.zsh"
+
+zinit ice lucid as"program" pick"bin/git-dsf"
+zinit load so-fancy/diff-so-fancy
+
+zinit light zsh-users/zsh-syntax-highlighting
+zinit light zsh-users/zsh-completions
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-history-substring-search
+zinit light Aloxaf/fzf-tab
+zinit light romkatv/gitstatus
+
+zinit snippet OMZP::git
+zinit snippet OMZP::sudo
+zinit snippet OMZP::aws
+zinit snippet OMZP::kubectl
+zinit snippet OMZP::kubectx
+zinit snippet OMZP::command-not-found
+zinit snippet OMZP::terraform
+
+autoload -Uz compinit && compinit
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'
+
+
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=50000
+
 setopt EXTENDED_HISTORY HIST_VERIFY HIST_REDUCE_BLANKS HIST_IGNORE_ALL_DUPS
 
 bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/edison/.zshrc'
+zstyle :compinstall filename '${HOME}.zshrc'
 
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
 
-# Plugins adicionados
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
-# Arquivo do autocompletar.
- zstyle :compinstall filename '${HOME}/.zshrc'
+#Auto-completar com tab
+setopt auto_list
+setopt auto_menu
+setopt case_glob
 
-# Auto-completando com <TAB>
- setopt auto_list
- setopt auto_menu
- setopt case_glob
- setopt list_types
- setopt glob_complete
- setopt menu_complete
- setopt complete_in_word
- setopt complete_aliases
- autoload -U compinit promptinit
- compinit
- promptinit
-
- # Ativando modo 'verbose':
- zstyle ':completion:*' verbose 'yes'
- zstyle ':completion:*' show-completer
-
- # Lista colorida de complementações:
- zstyle ':completion:*:default' list-colors ${(s.:.)ZLS_COLORS}
-
- # Menu de seleção visual:
- zstyle ':completion:*' menu select=3 _complete _ignored _approximate
- zstyle ':completion:*' select-prompt '%S zsh: Seleção atual = %p %s'
-
- # Auto descrição das complementações possíveis:
- zstyle ':completion:*:options' description 'yes'
- zstyle ':completion:*:options' auto-description '%d'
-
- # Formato das mensagens de auto-complementação:
- zstyle ':completion:*:corrections' format '%Bzsh: %d (erros: %e)%b'
- zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
- zstyle ':completion:*:warnings' format '%Bzsh: Inválido como: %d%b'
-
- # Listando auto-complementações em grupos:
- zstyle ':completion:*:matches' groups 'yes'
- zstyle ':completion:*' list-grouped
- zstyle ':completion:*' group-name ''
- zstyle ':completion:*:*:-command-:*' group-order commands builtins
-
- # Expandir o máximo que puder:
- zstyle ':completion:incremental:*' completer _complete _correct
- zstyle ':completion:*' completer _complete _correct _match _approximate
- zstyle ':completion:*:expand:*' tag-order all-expansions
-
- # Número de erros a aceitar durante auto-complementação:
- zstyle ':completion:*:approximate:*' max-errors 2 numeric
-
- # Usar '/d/s <TAB>' para expandir para '/dir/subdir':
- zstyle ':completion:*' expand 'yes'
- zstyle ':completion:*' squeeze-slashes 'yes'
-
- # Preservar prefixo/sufixo durante auto-complementação:
- zstyle ':completion:*' expand prefix suffix
- zstyle ':completion:*' completer _complete _prefix _match _approximate
- zstyle ':completion:*' preserve-prefix '//[^ /]##/'
- zstyle ':completion:*:match:*' original only
- 
- # Evitar entradas duplicadas para os comandos abaixo:
- zstyle ':completion:*:rm:*' ignore-line 'yes'
- zstyle ':completion:*:cp:*' ignore-line 'yes'
- zstyle ':completion:*:mv:*' ignore-line 'yes'
- zstyle ':completion:*:ls:*' ignore-line 'yes'
-
- # Auto-complementação case-sensitive:
- zstyle ':completion:*:complete:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}'
-
- # Auto-complementar a partir de curingas:
- zstyle ':completion:*:complete-extended:*' matcher 'r:|[.,_-]=* r:|=*'
-
- # Ignorar auto-complementação de funções internas do zsh:
- zstyle ':completion:*:functions' ignored-patterns '_*'
-
- # Autocompletar PID (kill).
- zstyle ':completion:*:*:kill:*' menu yes select
- zstyle ':completion:*:kill:*' force-list always
- 
- # Alias
- alias aur='yay -Syu'
- alias pacman='sudo pacman -Syu'
-
-eval "$(starship init zsh)"
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

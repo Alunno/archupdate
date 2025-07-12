@@ -47,6 +47,7 @@ chsh -s /bin/zsh
 echo -e "${LIGHTGRAY} *** INSTALANDO ARQUIVOS DE CONFIG. ZSH. *** ${OFF}"
 sleep 3
 cd $HOME/archupdate/
+cp -r zsh $HOME/.config
 cp starship.toml $HOME/.config/
 cp zshrc $HOME/.zshrc
 echo -e "${LPURPLE} *** INSTALANDO ESQUEMAS DE SOM *** ${OFF}"
